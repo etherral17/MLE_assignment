@@ -1,0 +1,8 @@
+Short report :
+    The data collected shows that there was no missing values and all the data was standardized and then model was trained on it.
+The first column was the id of the corn samples and hence it was removed. I proceeded with applying MLP and xgboost on the data and 
+found the results to be - R2 score 0.59 .We performed the SHAP analysis and basic check on the data. Standardized the data and pickled
+ the scalers and model after training. All the files are intact in this repository.
+ A streamlit application is also there which asks the user to upload the test.csv and show them the results and download them too.
+ 
+    
